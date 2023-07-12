@@ -1,13 +1,16 @@
-### A/B testing and SQL queries for e-learning
-***
-В нем я провожу исследование результатов A/B-тестирования новой механики оплаты на образовательном сайте, выбираю ключевые метрики, с помощью статистических тестов делаю выводы о запуске предмета теста в продакшн.
+## A/B testing and SQL queries for e-learning
 
-#### Используемые библиотеки и инструменты:
+In this project I explore results of a recent A/B test concerning a new payment mechanism on an e-learning platform. I select key metrics, conduct statistical tests to determine the new feature's fate. Aside from checking for significant differences in the readings, I calculate the product's key metrics using Clickhouse.
+The analysis led me to believe that the new feature didn't influence the KPIs, positively or negatively, so it would be unwise to roll out the new payment mechanic.
+*** 
+
+### Tools and libraries used:
+
 - Python,
 - Pandas,
 - Statsmodels,
 - Pingouin,
-- Matplotlib
-- Seaborn. 
+- Matplotlib,
+- Seaborn
 
-Также работаю с базой данных **Clickhouse**, чтобы вывести важные метрики для развития e-learning проекта.
+
